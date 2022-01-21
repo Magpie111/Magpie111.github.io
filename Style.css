@@ -1,0 +1,48 @@
+*{
+    padding: 1vh;
+}
+body {
+    display: flex;
+}
+div {
+    width: 40vh;
+    height: 30vh;
+    padding: 1vh 2vh;
+    margin:  1vh 3vh;
+    background: rgb(30,30,30);
+    border-radius: 3vh;
+    transition: 0.1s;
+  }
+div:hover{ 
+  transform: scale(1.05);
+}
+
+p
+{
+    color: rgb(200, 200, 200);
+    font-family: monospace;    
+}
+#DC{
+    margin: 1vh 2vh;
+    display: flex;
+    position: relative;
+    bottom: -2vh;
+    width: 80%;
+}
+.Credits{
+    position: relative;
+    text-align: end;
+    width: 60%;
+    top: 30%;
+    left: 25%;
+
+}
+
+h2{
+    font-family: monospace;
+    margin: 1vh 1vh 0vh 1vh;
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+
+

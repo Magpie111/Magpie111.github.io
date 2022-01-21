@@ -1,52 +1,32 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <!-- Day Counter -->
+        <a href="https://magpie111.github.io/DayCounter/" style="text-decoration:none;"><div class="WebCard">
+            <h2 >Day Counter</h2> 
+            <p id="DC">
+                My first project, a countdown to my birthday using javascript
+            </p>
+            <p class="Credits">
+                - Sarunas Tautvydas
+            </p>
+        </div></a>
 
-
-<head>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Day Counter</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;300;600&display=swap" rel="stylesheet">
-
-</head>
-
-
-<body>
+        
+         <!-- CAS Project -->
+         <a href="https://magpie111.github.io/Cas-Project/" style="text-decoration:none;"><div class="WebCard">
+            <h2 >CAS Project Website</h2> 
+            <p id="DC">
+                An organisational website based on day blocking, made as a CAS project
+            </p>
+            <p class="Credits">
+                - Saisharan Raja, Albin Wultz, Sarunas Tautvydas
+            </p>
+        </div></a>
+        
+    </body>
     
-    
-        <script>
-            // One day Time in ms (milliseconds)
-            var one_day = 1000 * 60 * 60 * 24
-            
-            // To set present_dates to two variables
-            var present_date = new Date();
-            
-            // 0-11 is Month in JavaScript
-            var christmas_day = new Date(2023, 2, 12,)
-            
-            
-            // To Calculate the result in milliseconds and then converting into days
-            var Result = Math.round(christmas_day.getTime() - present_date.getTime()) / (one_day);
-            
-            // To remove the decimals from the (Result) resulting days value
-            var Final_Result = Result.toFixed(0);
-            
-            document.body.innerHTML = "<h1> "+ "<br>" + Final_Result +" Days" + "</h1>"
-            
-            
-            </script>
-   
-   <h2> 
-       
-    </h2>
-    
-    
-</body>
-
-
 </html>
